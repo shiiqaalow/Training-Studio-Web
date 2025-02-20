@@ -656,18 +656,19 @@ footer p a {
     }
 
     .discription h1 {
-        font-size: .9rem;
-        font-weight: 500;
+        font-size: .8rem;
+        font-weight: 600;
     }
 
     .discription p {
         font-size: .7rem;
-        line-height: .9rem;
+        line-height: 1rem;
     
     }
 
     .content2 .header {
         font-size: 1rem;
+        margin-top: 10rem;
 
     }
     .content2 .header .f-h1 {
