@@ -633,26 +633,36 @@ footer p a {
 
     }
 
-    .hero .hero-tittle2 {
+    .hero-tittle h1 {
         display: flex;
-        font-size: 1.5rem;
-        margin-top: 3rem;
+        flex-direction: column;
     }
-    .hero .btn {
-        margin-top: 3rem;
+
+    .hero .hero-tittle2  {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 4rem;
+        /* margin-top: 3rem; */
     }
+
+    .hero-tittle2 span {
+        color: #d66035;
+    }
+
 
     .boxes {
         grid-template-columns: 1fr;
     }
 
     .discription h1 {
-        font-size: 1rem;
+        font-size: .9rem;
         font-weight: 500;
     }
 
     .discription p {
-        font-size: .8rem;
+        font-size: .7rem;
+        line-height: .9rem;
     
     }
 
@@ -662,13 +672,21 @@ footer p a {
     }
     .content2 .header .f-h1 {
         display: flex;
-        font-size: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .content2 .btn {
+        padding: .8rem;
     }
 
     .content2 .discription {
         margin-top: -3rem;
     }
 
+    
+    .content2 .discription p {
+        font-size: .8rem;
+    }
     .content-4 {
         display: flex;
         flex-direction: column;
@@ -688,6 +706,11 @@ footer p a {
         height: 31.75rem;
     }
 
+    .table-heading {
+        font-size: .6rem;
+        font-weight: 200;
+    }
+
     table {
         border: 1px solid #fff;
         color: #fff;
@@ -696,14 +719,14 @@ footer p a {
         margin-inline: 6.5rem;
         border-collapse: collapse;
         text-align: center;
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: .5rem;
+        font-weight: 200;
     }
     
      table tr td {
         border: 1px solid #fff;
-        width: 8.76rem;
-        height: 6.25rem;
+        /* width: 8.76rem; */
+        /* height: 6.25rem; */
     }
 
     .flex-cards {
@@ -711,19 +734,6 @@ footer p a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-       }
-
-       .cards {
-        width: 31.875rem;
-       }
-
-       .cards img {
-        width: 24.4rem;
-        height: 16.6875rem;
-       }
-
-       .card-info {
-        width: 22rem;
        }
 
        .content-7 {
@@ -734,26 +744,30 @@ footer p a {
        
        iframe {
         width: 100%;
-        height: 25rem;
-        margin-bottom: -4rem;
+        height: 10rem;
+        /* margin-bottom: -4rem; */
        }
 
        .form {
         width: 100%;
-        height: 120rem;
-        padding: 3rem 0rem;
+        height: 100%
+
        }
+
        .form-info {
-    
+        padding-left: 3rem;
+        margin-inline:6rem ;
+        height: 40rem;
        }
+      
 
 
        footer p {
-        font-size: .8rem;
+        font-size: .7rem;
        }
 
 }
-
+/* 
 @media (max-width: 990px)  {
 
     .hero-tittle {
@@ -830,7 +844,7 @@ footer p a {
     iframe {
         height: 100%;
     }
-        
+         */
 
 
     }
