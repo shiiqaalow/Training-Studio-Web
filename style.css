@@ -715,9 +715,10 @@ footer p a {
     table {
         border: 1px solid #fff;
         color: #fff;
-        width: 57.5rem;
+        width: 21rem;
         height: 31.29rem;
-        margin-inline: 6.5rem;
+        margin-inline: -.9rem;
+        overflow: hidden;
         border-collapse: collapse;
         text-align: center;
         font-size: .5rem;
