@@ -25,7 +25,10 @@ body {
     display: none;
 }
 header {
-    /* background-color: aqua; */
+    width: 100%;
+}
+.mobile-logo{
+    display: none;
 }
 .desktop-menu {
     display: flex;
@@ -591,7 +594,7 @@ footer p a {
 
     }
 
-    .logo {
+    .mobile-logo {
         display: flex;
         gap: .4rem;
         background-color: #edf2fa;
