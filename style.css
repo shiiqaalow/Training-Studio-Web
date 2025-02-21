@@ -14,7 +14,7 @@
 
 body {
     font-family: "Poppins", serif;
-    background-color: #edf2fa;;
+    background-color: #edf2fa;
 }
 
 .mobile-menu {
@@ -457,8 +457,6 @@ table {
 
 }
 
-
-
 iframe {
     height: 34rem;
 }
@@ -540,8 +538,8 @@ footer p a {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgb(183, 191, 153);
-        color: #fff;
+        background-color: #fff;
+        color: black;
         position: fixed;
         inset: 0 0 0 0 ;
         transform: translateY(0%); 
@@ -571,8 +569,7 @@ footer p a {
         align-items: center;
         list-style: none;
         gap: 1rem;
-        margin-top: 4.5rem;
-        margin-bottom: -6em;
+        margin-top: 12rem;
         font-size: 1.5rem;
         text-transform: uppercase;
         height: 100vh;
@@ -580,14 +577,34 @@ footer p a {
 
     .mobile-menu .navigation a {
         text-decoration: none;
-        color: white;
+        color: black;
+        gap: 4rem;
     }
 
     .mobile-menu .logos {
         display: flex;
         gap: .4rem;
+        background-color: #fff;
+        position: fixed;
+        top: 0%;
         font-size: 2rem;
 
+    }
+
+    .logo {
+        display: flex;
+        gap: .4rem;
+        background-color: #edf2fa;
+        position: fixed;
+        top: .1%;
+        font-size: 1.5rem;
+        height: 4.5rem;
+        width: 100%;
+
+    }
+
+    .logo2 {
+        color: #d66035;
     }
 
     .mobile-menu .logo2 {
@@ -596,7 +613,7 @@ footer p a {
 
     .sign-up-btn {
         background-color: #d66035;
-        padding: .8rem 9rem;
+        padding: .4rem 6rem;
     }
 
     .hamburger {
@@ -605,13 +622,13 @@ footer p a {
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 7%;
-        right: 6%;
+        top: 11%;
+        right: 5%;
         font-size: 2rem;
-        color: white;
-        background-color: blue;
+        color: black;
+        background-color: white;
         border-radius: 50%;
-        width: 10%;
+        width: 16%;
         height: 10%;
 
     }
@@ -696,6 +713,7 @@ footer p a {
     .content-5 {
         width: 100%;
         overflow: hidden;
+        height: 50%;
     }
     .table-heading {
         font-size: .8rem;
@@ -731,7 +749,6 @@ footer p a {
        iframe {
         width: 100%;
         height: 10rem;
-        /* margin-bottom: -4rem; */
        }
 
        .form {
@@ -753,86 +770,6 @@ footer p a {
        }
 
 }
-/* 
-@media (max-width: 990px)  {
 
-    .hero-tittle {
-        margin-top: 20rem;
-    }
-    .hero-tittle .hero-tittle2 {
-        font-size: 3rem;
-    }
-
-    .boxes {
-        grid-template-columns: 1fr;
-    }
-
-    .discription h1 {
-        font-size: 1rem;
-        font-weight: 500;
-    }
-
-    .discription p {
-        font-size: 1rem;
-    
-    }
-
-    .discription p a{
-        font-size: .9rem;
-    }
-
-    .content2  {
-        margin-top: 5rem;
-
-    }
-    .content2 .header .f-h1 {
-        font-size: 3.2rem;
-    }
-
-    .content2 .discription {
-        margin-top: -3rem;
-    }
-
-    .content2 .discription p {
-        font-size: 1.5rem;
-        line-height: 3rem;
-    }
-
-    .content-4 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .flex-cards {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .cards img {
-        width: 26.875rem;
-        height: 20.375rem;
-    }
-
-    .card-info {
-        width: 24.875rem;
-        height: 20.375rem;
-    }
-
-    .card-info p {
-        font-size: 1rem;
-    }
-
-    .content-7 {
-        display: flex;
-        gap: 1rem;
-    }
-
-    iframe {
-        height: 100%;
-    }
-         */
-
-
-    }
 
 
