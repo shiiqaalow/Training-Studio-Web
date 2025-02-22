@@ -41,9 +41,10 @@ header {
     text-transform: uppercase;
     /* height: 5rem; */
     position: fixed;
+    z-index: 111;
     
 } 
-.desktop-menu .logos {
+.desktop-menu .logo {
     display: flex;
     gap: .4rem;
     font-size: 1.5rem;
@@ -87,6 +88,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    z-index: 111;
 }
 
 .hero-tittle1 {
@@ -130,9 +132,16 @@ header {
 .hero-btn button:hover {
     background-color: #f88c62;
 }
+
 .hero {
-    background: url("https://mobirise.com/extensions/retreatm5/outdoor-yoga-classes/assets/images/pexels-natalie-3759660.jpg") center / cover no-repeat;
+    /* background: url("https://videos.pexels.com/video-files/7674505/7674505-sd_506_960_25fps.mp4") center / cover no-repeat; */
     height: 100vh;
+    overflow: hidden;
+}
+
+video {
+    width: 80rem;
+    position: relative;
     overflow: hidden;
 }
 
@@ -368,10 +377,12 @@ header {
 }
 
 table {
+    display: flex;
+    flex-direction: column;
     border: 1px solid #fff;
     color: #fff;
-    width: 57.5rem;
-    height: 31.29rem;
+    width: 100%;
+    height: 100%;
     margin-inline: -2.5rem;
     border-collapse: collapse;
     text-align: center;
